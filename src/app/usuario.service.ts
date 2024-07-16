@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class UsuarioService {
 
-  private apiUrl = 'http://localhost:8080/Prueba/rs/usuarios'; // Reemplaza con la URL correcta de tu API
+  private apiUrl = 'http://localhost:8080/Prueba/rs/usuario'; // Reemplaza con la URL correcta de tu API
 
   constructor(private http: HttpClient) { }
 
